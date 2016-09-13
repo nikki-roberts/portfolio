@@ -4,12 +4,40 @@
 .heading {
 	border:1px solid #776472;
 	text-align:center;
-	font-family: 'Devonshire', cursive;
 }
 h1 {
 	color:#E2E2E2;
+	font-family: 'Devonshire', cursive;
 }
-p {
+.about {
 	font-family: 'Titillium Web', sans-serif;
 	color:#99B0B5;
+}
+.portrait {
+	height:200px;
+}
+.sequence {
+	width:200px;
+}
+.profile {
+	height:100px;
+}
+p .header  {
+	display:inline-block;
+	color:#99B0B5;
+	font-family: arial;
+	text-align:center;
+}
+img {
+	display: inline-block;
+}
+a:link {
+	text-decoration: none;
+	color:#99B0B5;
+}
+a:visited {
+	color:#E9F2F5;
+}
+a:hover {
+	background-color: black;
 }
