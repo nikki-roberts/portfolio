@@ -12,21 +12,32 @@ h1 {
 .about {
 	font-family: 'Titillium Web', sans-serif;
 	color:#99B0B5;
+	border:1px solid #B2A2BF;
+	margin-right: 200px;
 }
 .portrait {
 	height:200px;
 }
 .sequence {
-	width:200px;
+	width:270px;
 }
 .profile {
 	height:100px;
 }
+.vignette1 {
+	height:200px;
+}
+.vignette2 {
+	width:300px;
+}
 p .header  {
-	display:inline-block;
 	color:#99B0B5;
 	font-family: arial;
-	text-align:center;
+}
+.flexcontainer {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 img {
 	display: inline-block;
@@ -39,5 +50,5 @@ a:visited {
 	color:#E9F2F5;
 }
 a:hover {
-	background-color: black;
+	text-shadow: 2px 2px 8px #000000;
 }
